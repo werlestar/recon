@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Result in New Tab</title>
+</head>
+
+<body>
+    <script>
+        function openResultInNewTab() {
+            var resultHtml = `
+            <html lang="sv">
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Comparison Results</title>
+            </head>
+            <body>
+                <h1>Comparison Results</h1>
+
+                <h2>Verifone Unique Transactions:</h2>
+                <ul>
+                    {% for transaction in vf_unika %}
+                    <li>{{ transaction }}</li>
+                    {% endfor %}
+                </ul>
+
+                <h2>Backoffice Unique Transactions:</h2>
+                <ul>
+                    {% for transaction in bo_unika %}
+                    <li>{{ transaction }}</li>
+                    {% endfor %}
+                </ul>
+            </body>
+            </html>
+            `;
+            var newWindow = window.open();
+            newWindow.document.write(resultHtml);
+            newWindow.document.close();
+        }
+
+        // Call the function to open result in new tab when the page loads
+        window.onload = openResultInNewTab;
+    </script>
+</body>
+
+</html>

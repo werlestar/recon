@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparison Results</title>
+</head>
+
+<body>
+    <h1>Comparison Results</h1>
+
+    <h2>Verifone Unique Transactions:</h2>
+    <ul>
+        {% for transaction in vf_unika %}
+        <li>{{ transaction }}</li>
+        {% endfor %}
+    </ul>
+
+    <h2>Backoffice Unique Transactions:</h2>
+    <ul>
+        {% for transaction in bo_unika %}
+        <li>{{ transaction }}</li>
+        {% endfor %}
+    </ul>
+</body>
+
+</html>
