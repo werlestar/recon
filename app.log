@@ -1,0 +1,24 @@
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 110-548-518
+INFO:werkzeug: * Detected change in '/Users/joel.ekberg/Downloads/transrecon/transrecon.py', reloading
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 110-548-518
+INFO:werkzeug:127.0.0.1 - - [21/Mar/2024 14:12:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/joel.ekberg/Downloads/transrecon/transrecon.py', reloading
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 110-548-518
+INFO:werkzeug:127.0.0.1 - - [21/Mar/2024 14:14:01] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/joel.ekberg/Downloads/transrecon/transrecon.py', reloading
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 110-548-518
+INFO:werkzeug:127.0.0.1 - - [21/Mar/2024 14:17:56] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/joel.ekberg/Downloads/transrecon/transrecon.py', reloading
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 110-548-518
+INFO:werkzeug:127.0.0.1 - - [21/Mar/2024 14:19:49] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 110-548-518
